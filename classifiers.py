@@ -43,7 +43,7 @@ def ensure_target_column(df, target_column, default_value="Unknown"):
     
     return df
 
-# Step 3: Preprocess the data
+# Step 3: Preprocess the data.
 def preprocess_data(df):
     """
     Preprocess the data by encoding categorical variables and selecting features/target.
