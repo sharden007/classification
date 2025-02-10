@@ -30,7 +30,10 @@ Decision Support in Retail:
 Use predictions to optimize inventory by stocking more of the recommended products for specific customer demographics.
 Output
 Console:
-Displays accuracy scores and classification reports for both models.
+After evaluation, it displays:
+Accuracy Score: A numeric value between 0 and 1 indicating the percentage of correct predictions.
+Classification Report: Includes precision, recall, F1-score, and support for each class in the target variable.
+
 
 CSV Files:
 decision_tree_predictions.csv: Contains test data with actual and predicted labels from the Decision Tree classifier.
